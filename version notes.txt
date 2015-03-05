@@ -1,0 +1,11 @@
+AVA gui was set up to allow for flexible viewing on different continuous data streams.  It can view up to 4 waves, labelled A-D.  It can display up to 4 measures, labelled M1-M4, each of which is associated with any of the waves.  
+
+
+
+v1.5
+
+-auto centering with forward/backward buttons or slider bar (not scroll wheel)
+-now able to load and calculate measures
+-added cyan and magenta for fill colors
+-rename measures M1-M4 from A-D to avoid confusion with waves
+
