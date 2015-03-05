@@ -188,7 +188,7 @@ h_case_popup = uicontrol(f, 'Style','popupmenu',...
         else
             activeindex = find(strcmp({CaseList.id}, case_id));  %this finds index by comparing casename to full CaseList
            % case_dir = [matDir case_id '\'];
-            case_dir = [matDir case_id pathsep]; % jkr - make flexible to Mac
+            case_dir = [matDir case_id filesep]; % jkr - make flexible to Mac
             uistack(hWarning, 'top')
             set(hWarning, 'Visible','on', 'String', 'Loading Case')
             
